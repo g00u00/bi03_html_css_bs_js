@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин</title>
+</head>
+<body>
+<h3 align="center">Магазин</h3>
+<table border=1 align="center">
+    <form action="http://198.211.123.137:7633/cgi-bin/form_action.py" method='get' target='_self'>
+        <tbody>
+        <tr>
+            <td align="center" width="120px"><img height="100" src="" width="100px">
+                <br> <input name="name" size=20 type="Text" value="Товар1">
+                <br>Цена<input name="price" size=4 type="Text" value="200">
+                Заказать<input name="quant" size=2 type="Text" value="0">
+            </td>
+            <td align="center" width="120px"><img height="100" src="" width="100px">
+                <br> <input name="name" size=20 type="Text" value="Товар2">
+                <br>Цена<input name="price" size=4 type="Text" value="200">
+                Заказать<input name="quant" size=2 type="Text" value="0">
+            </td>
+            <td align="center" width="120px"><img height="100" src="" width="100px">
+                <br> <input name="name" size=20 type="Text" value="Товар3">
+                <br>Цена<input name="price" size=4 type="Text" value="200">
+                Заказать<input name="quant" size=2 type="Text" value="0">
+            </td>
+            <td align="center" width="120px"><img height="100" src="" width="100px">
+                <br> <input name="name" size=20 type="Text" value="Товар4">
+                <br>Цена<input name="price" size=4 type="Text" value="200">
+                Заказать<input name="quant" size=2 type="Text" value="0">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan=4>
+                <!--Все нижерасположенные фрагменты перемещать нельзя, редактировать можно-->
+                Телефон заказчика:<input name="phone"  type="tel">
+                <p>Название файла: <input name="000_file_name" type="Техт" value="g04u59_marshirov_shop.txt">
+                    <br>Тип записи в файл:<select name="010_mode">
+                        <OPTION value="a">a - дозаписать в файл</OPTION>
+                        <OPTION value="w">w - очисить файл и записать в файл</OPTION>
+                    </select>
+                    <input name="function" type="hidden" value="page">
+                    <input name="page_id" type="hidden" value="3"></p>
+                <p><input name="Reset" type="Reset" value="Обновить">
+                    <input name="submit" type="Submit" value="Отправить">
+                </p>
+            </td>
+        </tr>
+
+        </tbody>
+
+    </form>
+</table>
+
+</body>
+</html>
